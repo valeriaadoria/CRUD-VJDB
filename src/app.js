@@ -17,11 +17,11 @@ app.set('views', path.join(__dirname, 'views'));
 //middlewares
 app.use(morgan('dev'));
 app.use(myConnection(mysql,{
-    host:'sql10.freemysqlhosting.net',
-    user:'sql10469749',
-    password:'BsVkQUs5hW',
+    host:'db5007094691.hosting-data.io',
+    user:'dbu2427698',
+    password:'iestdev0!',
     port: 3306,
-    database:'sql10469749'
+    database:'dbs5848722'
 },'single'))
 app.use(express.urlencoded({extended: false}));
 
